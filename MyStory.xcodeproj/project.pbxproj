@@ -10,12 +10,14 @@
 		A20C69412BC4B19400432BAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C69402BC4B19400432BAE /* AppDelegate.swift */; };
 		A20C69432BC4B19400432BAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C69422BC4B19400432BAE /* SceneDelegate.swift */; };
 		A20C69452BC4B19400432BAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C69442BC4B19400432BAE /* ViewController.swift */; };
-		A20C69482BC4B19400432BAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20C69462BC4B19400432BAE /* Main.storyboard */; };
+		A20C69482BC4B19400432BAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20C69462BC4B19400432BAE /* Main.storyboard */; settings = {ASSET_TAGS = (1, ); }; };
 		A20C694A2BC4B19400432BAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20C69492BC4B19400432BAE /* Assets.xcassets */; };
 		A20C694D2BC4B19400432BAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20C694B2BC4B19400432BAE /* LaunchScreen.storyboard */; };
 		A20C69582BC4B19500432BAE /* MyStoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C69572BC4B19500432BAE /* MyStoryTests.swift */; };
 		A20C69622BC4B19500432BAE /* MyStoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C69612BC4B19500432BAE /* MyStoryUITests.swift */; };
 		A20C69642BC4B19500432BAE /* MyStoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C69632BC4B19500432BAE /* MyStoryUITestsLaunchTests.swift */; };
+		A20C69712BC4B57800432BAE /* StoryObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C69702BC4B57800432BAE /* StoryObject.swift */; };
+		A20C69732BC755A200432BAE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C69722BC755A200432BAE /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		A20C695D2BC4B19500432BAE /* MyStoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyStoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20C69612BC4B19500432BAE /* MyStoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStoryUITests.swift; sourceTree = "<group>"; };
 		A20C69632BC4B19500432BAE /* MyStoryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStoryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A20C69702BC4B57800432BAE /* StoryObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryObject.swift; sourceTree = "<group>"; };
+		A20C69722BC755A200432BAE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +106,12 @@
 				A20C69402BC4B19400432BAE /* AppDelegate.swift */,
 				A20C69422BC4B19400432BAE /* SceneDelegate.swift */,
 				A20C69442BC4B19400432BAE /* ViewController.swift */,
+				A20C69722BC755A200432BAE /* DetailViewController.swift */,
 				A20C69462BC4B19400432BAE /* Main.storyboard */,
 				A20C69492BC4B19400432BAE /* Assets.xcassets */,
 				A20C694B2BC4B19400432BAE /* LaunchScreen.storyboard */,
 				A20C694E2BC4B19400432BAE /* Info.plist */,
+				A20C69702BC4B57800432BAE /* StoryObject.swift */,
 			);
 			path = MyStory;
 			sourceTree = "<group>";
@@ -190,6 +196,10 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					1,
+					button1,
+				);
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
@@ -258,6 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A20C69712BC4B57800432BAE /* StoryObject.swift in Sources */,
+				A20C69732BC755A200432BAE /* DetailViewController.swift in Sources */,
 				A20C69452BC4B19400432BAE /* ViewController.swift in Sources */,
 				A20C69412BC4B19400432BAE /* AppDelegate.swift in Sources */,
 				A20C69432BC4B19400432BAE /* SceneDelegate.swift in Sources */,
