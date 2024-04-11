@@ -2,7 +2,7 @@
 
 Submitted by: **Michael Walelr**
 
-**My Story* is an app that introduces ... [TODO] 
+**My Story* is an app that introduces users to the main character from the One Piece series, Monkey D. Luffy.
 
 Time spent: **3** hours spent in total
 
